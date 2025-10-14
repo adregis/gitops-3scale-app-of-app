@@ -22,7 +22,7 @@ spec:
         - 'values/hml/generic/developer-user.yaml'
         - 'values/hml/generic/product.yaml'
         - 'values/hml/generic/activedoc.yaml'
-    repoURL: 'https://github.com/adregis/gitops-3scale-api.git'
+    repoURL: 'https://github.com/adregis/gitops-3scale-api/generic.git'
     targetRevision: HEAD
   syncPolicy:
     automated:
