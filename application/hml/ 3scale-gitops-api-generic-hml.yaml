@@ -10,8 +10,8 @@ metadata:
 spec:
   destination:
     namespace: 3scale
-    server: 'https://api.hml.3scale.app:6443'
-  project: 3scale-gitops
+    server: 'https://kubernetes.default.svc'
+  project: default
   source:
     path: '.'
     helm:
@@ -22,7 +22,7 @@ spec:
         - 'values/hml/generic/developer-user.yaml'
         - 'values/hml/generic/product.yaml'
         - 'values/hml/generic/activedoc.yaml'
-    repoURL: 'http://github.com/adregis/3scale/gitops/api/generic.git'
+    repoURL: 'API/Generic'
     targetRevision: HEAD
   syncPolicy:
     automated:
