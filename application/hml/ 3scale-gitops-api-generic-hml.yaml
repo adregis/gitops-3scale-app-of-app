@@ -9,7 +9,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "2"
 spec:
   destination:
-    namespace: 3scale
+    namespace: 3scale-dev
     server: 'https://kubernetes.default.svc'
   project: default
   source:
@@ -22,7 +22,7 @@ spec:
         - 'values/hml/generic/developer-user.yaml'
         - 'values/hml/generic/product.yaml'
         - 'values/hml/generic/activedoc.yaml'
-    repoURL: 'API/Generic'
+    repoURL: 'https://github.com/adregis/gitops-3scale-api.git'
     targetRevision: HEAD
   syncPolicy:
     automated:
