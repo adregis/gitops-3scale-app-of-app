@@ -13,15 +13,15 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    path: '.'
+    path: 'Generic/values/generic'
     helm:
       valueFiles:
-        - 'values/hml/generic/application.yaml'
-        - 'values/hml/generic/backend.yaml'
-        - 'values/hml/generic/developer-account.yaml'
-        - 'values/hml/generic/developer-user.yaml'
-        - 'values/hml/generic/product.yaml'
-        - 'values/hml/generic/activedoc.yaml'
+        - 'application.yaml'
+        - 'backend.yaml'
+        - 'developer-account.yaml'
+        - 'developer-user.yaml'
+        - 'product.yaml'
+        - 'activedoc.yaml'
     repoURL: 'https://github.com/adregis/gitops-3scale-api'
     targetRevision: HEAD
   syncPolicy:
