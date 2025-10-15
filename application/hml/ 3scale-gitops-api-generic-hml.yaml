@@ -23,7 +23,7 @@ spec:
         - 'values/hml/generic/product.yaml'
         - 'values/hml/generic/activedoc.yaml'
     repoURL: 'https://github.com/adregis/API.git'
-    targetRevision: HEAD
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
