@@ -16,13 +16,13 @@ spec:
     path: 'Generic/values/generic'
     helm:
       valueFiles:
-        - 'application.yaml'
-        - 'backend.yaml'
-        - 'developer-account.yaml'
-        - 'developer-user.yaml'
-        - 'product.yaml'
-        - 'activedoc.yaml'
-    repoURL: 'https://github.com/adregis/gitops-3scale-api'
+        - application.yaml
+        - backend.yaml
+        - developer-account.yaml
+        - developer-user.yaml
+        - product.yaml
+        - activedoc.yaml
+    repoURL: 'https://github.com/adregis/gitops-3scale-api.git'
     targetRevision: HEAD
   syncPolicy:
     automated:
