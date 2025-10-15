@@ -11,7 +11,7 @@ spec:
   destination:
     namespace: 3scale-dev
     server: 'https://kubernetes.default.svc'
-  project: default
+  project: 3scale-gitops
   source:
     path: '.'
     helm:
