@@ -16,7 +16,7 @@ spec:
     path: '.'
     helm:
       valueFiles:
-        - values/hml/generic/application.yaml
+        - 'values/hml/generic/application.yaml'
         - 'values/hml/generic/backend.yaml'
         - 'values/hml/generic/developer-account.yaml'
         - 'values/hml/generic/developer-user.yaml'
