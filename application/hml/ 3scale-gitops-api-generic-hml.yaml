@@ -13,7 +13,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    path: './Generic'
+    path: '.'
     helm:
       valueFiles:
         - 'values/hml/generic/application.yaml'
@@ -22,7 +22,7 @@ spec:
         - 'values/hml/generic/developer-user.yaml'
         - 'values/hml/generic/product.yaml'
         - 'values/hml/generic/activedoc.yaml'
-    repoURL: 'https://github.com/adregis/gitops-3scale-api.git'
+    repoURL: 'https://github.com/adregis/API.git'
     targetRevision: HEAD
   syncPolicy:
     automated:
