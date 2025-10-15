@@ -13,7 +13,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: 3scale-gitops
   source:
-    path: '.'
+    path: 'generic'
     helm:
       valueFiles:
         - 'values/hml/generic/application.yaml'
